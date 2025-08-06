@@ -1,0 +1,21 @@
+<?php
+$string['pluginname'] = 'IOMAD OIDC sync';
+$string['privacy:metadata'] = 'The IOMAD OIDC sync plugin only shows data stored in other locations.';
+$string['iomad_oidc_sync:view'] = 'View the IOMAD OIDC sync status';
+$string['iomad_oidc_sync:manage'] = 'Manage IOMAD OIDC sync settings';
+$string['agreeconsent'] = 'Consent';
+$string['approvalset'] = 'Approval of IOMAD OIDC sync granted successfully';
+$string['configerror'] = 'Invalid configuration detected.';
+$string['configlogs'] = 'Config logs';
+$string['consent_title'] = 'IOMAD OIDC sync company consent';
+$string['consentlink'] = 'Submit consent with Microsoft';
+$string['loglink'] = 'View Config log';
+$string['oidc_sync_task'] = 'IOMAD OIDC sync task';
+$string['boilerplate'] = 'To set up the OIDC sync tasks you must first provide your TENANTNAME or GUID and then click on the appoval link.  Once you have approved, if the connection is not showing as green, click on the red-cross to check.';
+$string['settenantnameorguid'] = 'Set the Tenant name or GUID';
+$string['syncgroupid'] = 'Optional object ID of the group to be synchronised”';
+$string['tenantnameorguid'] = 'Tenant name or GUID';
+$string['tenantnameorguid_changed_success'] = 'Company options saved successfully';
+$string['tenantnameorguid_changed_warning'] = 'Company options saved successfully.<br>Due to the change in Tenant name or GUID value, you may need to go through the approval process again';
+$string['unsuspendonsync'] = 'Un-suspend existing users';
+$string['useroptions'] = 'With removed users we';

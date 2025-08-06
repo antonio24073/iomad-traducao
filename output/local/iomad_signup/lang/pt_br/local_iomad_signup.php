@@ -1,0 +1,23 @@
+<?php
+$string['authenticationtypes'] = 'Selecione os tipos de autenticação';
+$string['authenticationtypes_desc'] = 'Esses são os tipos de autenticação que podem ser usados para atribuir automaticamente um usuário a uma empresa.';
+$string['autoenrol'] = 'Inscrever usuário automaticamente';
+$string['autoenrol_help'] = 'Selecionar isso inscreverá automaticamente novos usuários em cursos não licenciados ou de autoinscrição atribuídos à empresa.';
+$string['autoenrol_unassigned'] = 'Inscrever automaticamente cursos não atribuídos';
+$string['autoenrol_unassigned_help'] = 'Selecionar isso inscreverá automaticamente novos usuários em cursos não licenciados ou de autoinscrição não atribuídos a nenhuma empresa.';
+$string['choosepassword'] = 'Criar novo usuário';
+$string['company'] = 'Os usuários padrão da empresa são atribuídos a';
+$string['configcompany'] = 'Esta é a empresa à qual o usuário será atribuído após concluir o processo de inscrição, caso nenhuma outra empresa seja definida pelo formulário de inscrição ou pelo domínio de e-mail.';
+$string['configrole'] = 'Esta é a função que será atribuída ao usuário quando ele tiver concluído o processo de inscrição.';
+$string['emailasusernamehelp'] = 'Digite seu endereço de e-mail. Este será seu nome de usuário.';
+$string['emaildomaindoesntmatch'] = 'Seu domínio de e-mail não está na lista de domínios aceitos por esta empresa.';
+$string['enable'] = 'Habilitar';
+$string['enable_help'] = 'Novos usuários serão atribuídos a uma empresa na criação quando isso estiver habilitado.';
+$string['logininfo'] = 'Preencha o formulário abaixo para criar um novo usuário. Um e-mail será enviado para o endereço de e-mail que você especificar para verificar a conta e permitir o acesso.';
+$string['pluginname'] = 'Inscrição no IOMAD';
+$string['privacy:metadata'] = 'O plugin de inscrição Local IOMAD mostra apenas dados armazenados em outros locais.';
+$string['role'] = 'Função a ser atribuída';
+$string['showinstructions'] = 'Mostrar as instruções de autoinscrição na página de login';
+$string['showinstructions_help'] = 'Por padrão, o Moodle exibirá as instruções de autocadastro na página de login quando o autocadastro estiver habilitado. Isso permite que elas sejam removidas.';
+$string['useemail'] = 'Forçar e-mail como nome de usuário';
+$string['useemail_help'] = 'Selecionar esta opção removerá a opção de o usuário escolher seu próprio nome de usuário. Em vez disso, será usado o endereço de e-mail dele.';

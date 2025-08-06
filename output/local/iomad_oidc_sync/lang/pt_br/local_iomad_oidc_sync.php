@@ -1,0 +1,21 @@
+<?php
+$string['pluginname'] = 'Sincronização IOMAD OIDC';
+$string['privacy:metadata'] = 'O plugin de sincronização IOMAD OIDC mostra apenas dados armazenados em outros locais.';
+$string['iomad_oidc_sync:view'] = 'Visualizar o status de sincronização do IOMAD OIDC';
+$string['iomad_oidc_sync:manage'] = 'Gerenciar configurações de sincronização do IOMAD OIDC';
+$string['agreeconsent'] = 'Consentimento';
+$string['approvalset'] = 'Aprovação de sincronização do IOMAD OIDC concedida com sucesso';
+$string['configerror'] = 'Configuração inválida detectada.';
+$string['configlogs'] = 'Registros de configuração';
+$string['consent_title'] = 'Consentimento da empresa de sincronização IOMAD OIDC';
+$string['consentlink'] = 'Enviar consentimento à Microsoft';
+$string['loglink'] = 'Exibir log de configuração';
+$string['oidc_sync_task'] = 'Tarefa de sincronização IOMAD OIDC';
+$string['boilerplate'] = 'Para configurar as tarefas de sincronização do OIDC, você deve primeiro fornecer seu NOME DE TENENTE ou GUID e, em seguida, clicar no link de aprovação. Após a aprovação, se a conexão não estiver verde, clique no sinal vermelho para verificar.';
+$string['settenantnameorguid'] = 'Defina o nome do locatário ou GUID';
+$string['syncgroupid'] = 'ID de objeto opcional do grupo a ser sincronizado”';
+$string['tenantnameorguid'] = 'Nome do inquilino ou GUID';
+$string['tenantnameorguid_changed_success'] = 'Opções da empresa salvas com sucesso';
+$string['tenantnameorguid_changed_warning'] = 'Opções da empresa salvas com sucesso.<br>Devido à alteração no nome do locatário ou no valor do GUID, pode ser necessário passar pelo processo de aprovação novamente';
+$string['unsuspendonsync'] = 'Reativar a suspensão de usuários existentes';
+$string['useroptions'] = 'Com usuários removidos nós';

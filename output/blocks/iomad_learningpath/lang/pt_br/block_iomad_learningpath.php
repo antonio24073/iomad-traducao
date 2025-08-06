@@ -1,0 +1,20 @@
+<?php
+$string['coursedepends'] = 'Complete {$a} primeiro';
+$string['entercourse'] = 'Entrar no curso';
+$string['iomad_learningpath:addinstance'] = 'Adicionar bloco de caminho de aprendizagem';
+$string['iomad_learningpath:myaddinstance'] = 'Adicionar bloco de caminho de aprendizagem ao painel do Moodle';
+$string['nocompletion'] = 'Nenhum dado de progresso ainda';
+$string['nopathprogress'] = 'Nenhum dado de progresso ainda';
+$string['nopaths'] = 'Você não tem caminhos de aprendizagem';
+$string['open'] = 'Abrir';
+$string['pluginname'] = 'Caminhos de aprendizagem';
+$string['returntopath'] = 'Retorno aos caminhos de aprendizagem';
+$string['learningpathssyncedtotemplate'] = 'Caminhos de aprendizagem sincronizados com este modelo de plano de aprendizagem';
+$string['addlearningpaths'] = 'Adicionar caminhos de aprendizagem';
+$string['selectlearningpathstosync'] = 'Selecione caminhos de aprendizagem para sincronizar';
+$string['stopsyncinglearningpath'] = 'Parar de sincronizar o caminho de aprendizagem';
+$string['templatelearningpathnotsyncedwhilehidden'] = 'O caminho de aprendizagem não será sincronizado enquanto este modelo estiver oculto.';
+$string['templatelearningpathnotsyncedwhileduedateispassed'] = 'Os caminhos de aprendizagem não serão sincronizados se a data de vencimento do modelo tiver passado.';
+$string['assignlearningpaths'] = 'Atribuir caminhos de aprendizagem';
+$string['syncplanslearningpaths'] = 'Sincronizar planos a partir de modelos de planos de aprendizagem de caminhos de aprendizagem';
+$string['addlearningpathstosync'] = 'Adicionar caminhos de aprendizagem para sincronizar';

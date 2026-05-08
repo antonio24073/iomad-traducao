@@ -15,16 +15,18 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
+ * BLock IOMAD reports strings.
+ *
  * @package   block_iomad_reports
  * @copyright 2021 Derick Turner
  * @author    Derick Turner
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['iomad_reports:addinstance'] = 'Add a new IOMAD Reports block';
-$string['iomad_reports:myaddinstance'] = 'Add a new IOMAD Reports block to the users dashboard';
-$string['iomad_reports:view'] = 'Access to IOMAD Reports';
-$string['link'] = 'Go to IOMAD Dashboard';
+$string['iomad_reports:addinstance'] = 'Add a new Reports block';
+$string['iomad_reports:myaddinstance'] = 'Add a new Reports block to the users dashboard';
+$string['iomad_reports:view'] = 'Access to Reports';
+$string['link'] = 'Go to Dashboard';
 $string['nocompanyselected'] = 'No company is selected';
-$string['pluginname'] = 'IOMAD Reports';
-$string['privacy:metadata'] = 'The IOMAD company selector block only shows data stored in other locations.';
+$string['pluginname'] = 'Reports';
+$string['privacy:metadata'] = 'The company selector block only shows data stored in other locations.';

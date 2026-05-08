@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -16,6 +15,8 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
+ * IOMAD my courses block lang strings
+ *
  * @package   block_mycourses
  * @copyright 2021 Derick Turner
  * @author    Derick Turner
@@ -23,33 +24,43 @@
  */
 
 $string['archive'] = 'Older course history';
-$string['archivecutofflabel'] = 'Number of days for archive';
 $string['archivecutoffdesc'] = 'This sets the number of days after which a course is moved to the archive listing';
+$string['archivecutofflabel'] = 'Number of days for archive';
 $string['archivetitle'] = 'Archive courses';
 $string['aria:courseprogress'] = 'Course progress:';
 $string['availableheader'] = 'Available courses';
 $string['complete'] = 'complete';
 $string['completedheader'] = 'Completed courses';
+$string['completedstatus'] = 'Completed {$a}';
 $string['defaultviewlabel'] = 'Default view for course listing';
 $string['downloadcert'] = 'Download course certificate';
+$string['expiredstatus'] = 'Expired {$a}';
+$string['expiringstatus'] = 'Due to expire {$a}';
 $string['finalscore'] = 'Final score - {$a}%';
 $string['headerconfig'] = 'Configuration for the my courses block';
 $string['headerdesc'] = 'This holds the configuration for the my courses block and controls how it is displayed';
 $string['inprogressheader'] = 'Courses in progress';
+$string['mandatoryheader'] = 'Compliance overview';
+$string['mandatoryonly'] = 'Mandatory courses';
 $string['myarchiveheader'] = 'Archived course list';
-$string['mycoursesheader'] = 'My Course Library';
 $string['mycourses:addinstance'] = 'Add a mycourses block';
 $string['mycourses:myaddinstance'] = 'Add a mycourses block to my moodle';
+$string['mycoursesheader'] = 'My Course Library';
 $string['noavailable'] = 'No courses are available';
 $string['nocerttodownload'] = 'No certificate available';
 $string['nocompleted'] = 'No completed courses';
 $string['nocourses'] = '(No courses)';
 $string['noinprogress'] = 'No courses in progress';
+$string['nomandatory'] = 'No mandatory courses';
+$string['notcompletedstatus'] = 'In progress';
+$string['notenrolledstatus'] = 'Not enrolled';
 $string['notstartedheader'] = 'Courses not started';
+$string['notstartedstatus'] = 'Not started';
 $string['pluginname'] = 'My Courses';
+$string['previousstatus'] = 'Previously completed {$a}';
 $string['privacy:metadata'] = 'The My Courses block only shows data stored in other locations.';
 $string['result'] = 'Result - {$a}';
-$string['showsummarylabel'] = 'Show course summary';
 $string['showsummarydesc'] = 'Show the course summary in the listing';
+$string['showsummarylabel'] = 'Show course summary';
 $string['startcourse'] = 'Click \'OK\' to start this course';
 $string['title'] = 'My courses';

@@ -1,0 +1,49 @@
+<?php
+
+// Auto generated language file.
+
+$string['actions'] = '行动';
+$string['blocktitle'] = '用户报告';
+$string['certificate'] = '证书';
+$string['clear_successful'] = '用户已成功从课程中移除。';
+$string['clearconfirm'] = '用户将被取消课程注册，所有课程互动记录将被删除。此操作不会从报告中删除记录。此操作无法撤销。</br>您确定要执行此操作吗？';
+$string['clearcourse'] = '清晰的航向';
+$string['clearreallocateconfirm'] = '用户将被取消课程注册，其所有课程信息将被删除。此操作不会从报告中删除记录。如果使用许可证，系统将在适当情况下为用户分配新的许可证。此操作无法撤销。</br>您确定要执行此操作吗？';
+$string['completed'] = '完全的';
+$string['coursedetails'] = '完整课程报告';
+$string['datecompleted'] = '完成日期';
+$string['datestarted'] = '课程已分配/已开始';
+$string['delete_successful'] = '用户已成功从课程中移除。';
+$string['department'] = '部门';
+$string['downloadcert'] = '查看PDF格式证书';
+$string['inprogress'] = '进行中';
+$string['newentry_successful'] = '新课程记录已成功创建';
+$string['nocerttodownload'] = '未获得证书';
+$string['nofurtherdetail'] = '没有更多详情可供显示';
+$string['notenrolled'] = '未注册';
+$string['notstarted'] = '未开始';
+$string['pluginname'] = '用户报告';
+$string['privacy:metadata'] = '“本地 IOMAD 用户完成情况报告”仅显示存储在其他位置的数据。';
+$string['purgerecord'] = '清除记录';
+$string['purgerecordconfirm'] = '用户的课程报告记录将从所有报告中永久删除。此操作无法撤销。<br>您确定要执行此操作吗？</br>';
+$string['redocert'] = '重新生成证书';
+$string['redocert_successful'] = '证书文件已成功重新生成。根据您浏览器的缓存设置，下载时可能看起来仍然像是下载了原始文件。';
+$string['redocertificateconfirm'] = '您确定要为该用户重新生成已保存的证书文件吗？<br>此操作无法撤销。';
+$string['report_users:addentry'] = '为用户添加新的已存储课程记录';
+$string['report_users:clearentries'] = '清除课程中的用户信息。';
+$string['report_users:deleteentries'] = '从课程中删除用户信息并解除所有许可。';
+$string['report_users:deleteentriesfull'] = '删除课程中已存储的用户记录';
+$string['report_users:redocertificates'] = '为课程重新生成已存储的用户证书';
+$string['report_users:updateentries'] = '更新已存储的用户记录';
+$string['report_users:view'] = '查看用户报告';
+$string['report_users_title'] = '用户报告';
+$string['repusercompletion'] = '用户完成报告';
+$string['resetcourse'] = '课程';
+$string['resetcourseconfirm'] = '该用户将被从课程中移除，其所有报告数据将被删除。此操作无法撤销。<br>您确定要执行此操作吗？';
+$string['revoke_successful'] = '该用户的许可证已被成功撤销，其课程和报告数据已被删除。';
+$string['revokeconfirm'] = '许可证将从用户处移除，并释放回许可证池。报告数据也将被删除。此操作无法撤销。<br>您确定要执行此操作吗？';
+$string['revokelicense'] = '吊销许可证';
+$string['user_detail_title'] = '用户报告';
+$string['usercoursedetails'] = '用户详情';
+$string['userdetails'] = '报告信息，关于 {$a}';
+$string['viewfullcourse'] = '查看课程完整概要';

@@ -1,0 +1,55 @@
+<?php
+
+// Auto generated language file.
+
+$string['bulkenroluserssuccess'] = 'Debido a la cantidad de usuarios seleccionados, se ha creado una tarea específica para gestionar esta solicitud. Esto podría demorar un tiempo. Mientras tanto, es posible que no se muestren las solicitudes de inscripción de usuarios.';
+$string['bulkuserunenrolsuccess'] = 'Debido a la cantidad de usuarios seleccionados, se ha creado una tarea específica para gestionar esta solicitud. Esto podría demorar un tiempo. Mientras tanto, es posible que no se muestren las solicitudes de baja de usuarios.';
+$string['cachedef_allcompanycategories'] = 'Almacenar en caché las categorías a las que tiene acceso cualquier empresa.';
+$string['cachedef_companycategories'] = 'Caché para almacenar las categorías asignadas a una empresa.';
+$string['cachedef_companycoursecategories'] = 'Almacenar en caché las categorías a las que una empresa tiene acceso.';
+$string['cannotemailnontemporarypasswords'] = 'No es seguro enviar contraseñas por correo electrónico sin obligar a cambiarlas en el primer inicio de sesión.';
+$string['companycityfilter'] = 'La ubicación de la empresa contiene';
+$string['companycountryfilter'] = 'El país de la empresa contiene';
+$string['companycourses'] = 'Otros cursos de la empresa';
+$string['companyfilter'] = 'Filtrar resultados';
+$string['companynamefilter'] = 'El nombre de la empresa contiene';
+$string['companysearchfields'] = 'campos de búsqueda de empresas';
+$string['coursesearchfields'] = 'Búsqueda de cursos';
+$string['crontask'] = 'IOMAD Cron';
+$string['datesearchfields'] = 'Búsqueda de fechas';
+$string['deletecompany'] = 'Eliminar tarea ad hoc de la empresa';
+$string['enroluserstask'] = 'Tarea ad hoc de inscripción masiva de usuarios';
+$string['emailfilter'] = 'La dirección de correo electrónico contiene';
+$string['enforce_username_match'] = 'Requerir que el nombre de usuario coincida en todos los inquilinos.';
+$string['enforce_username_match_help'] = 'Cuando se selecciona esta opción, los usuarios existentes en otros inquilinos solo pueden coincidir por nombre de usuario (en lugar de usar nombre, apellido y dirección de correo electrónico) para evitar ser creados como un usuario nuevo/separado.';
+$string['firstnamefilter'] = 'El nombre de pila contiene';
+$string['iomad'] = 'IOMAD';
+$string['lastnamefilter'] = 'El apellido contiene';
+$string['missingaccesstocourse'] = 'No tienes permitido hacer eso.';
+$string['nopermissions'] = 'El administrador de IOMAD no te ha dado permiso para hacer esto.';
+$string['pluginname'] = 'IOMAD';
+$string['privacy:metadata'] = 'El complemento Local IOMAD solo muestra los datos almacenados en otras ubicaciones.';
+$string['privacy:metadata:company_users'] = 'Usuarios de la empresa';
+$string['privacy:metadata:company_users:companyid'] = 'ID de la empresa de los usuarios de la empresa';
+$string['privacy:metadata:company_users:departmentid'] = 'ID del departamento de usuarios de la empresa';
+$string['privacy:metadata:company_users:managertype'] = 'Tipo de gestor de usuarios de la empresa';
+$string['privacy:metadata:company_users:suspended'] = 'Los usuarios de la empresa suspendieron la bandera';
+$string['privacy:metadata:company_users:userid'] = 'ID de usuario de la empresa';
+$string['privacy:metadata:companylicense_users'] = 'Usuarios con licencia de empresa';
+$string['privacy:metadata:companylicense_users:groupid'] = 'ID del grupo de usuarios de licencias de la empresa';
+$string['privacy:metadata:companylicense_users:issuedate'] = 'Fecha de emisión de la licencia de usuario de la empresa';
+$string['privacy:metadata:companylicense_users:isusing'] = 'Bandera \'isusing\' para usuarios con licencia de empresa';
+$string['privacy:metadata:companylicense_users:licensecourseid'] = 'Licencia de la empresa, licencia de usuario, ID del curso';
+$string['privacy:metadata:companylicense_users:licenseid'] = 'ID de licencia de usuario de la empresa';
+$string['privacy:metadata:companylicense_users:result'] = 'Resultado de los usuarios de la licencia de la empresa';
+$string['privacy:metadata:companylicense_users:score'] = 'Puntuación de usuarios de licencias de la empresa';
+$string['privacy:metadata:companylicense_users:timecompleted'] = 'Tiempo de uso de licencias de la empresa completado';
+$string['privacy:metadata:companylicense_users:userid'] = 'ID de usuario de licencia de la empresa';
+$string['removelicenses'] = 'Eliminado: registros y licencias de cursos de la empresa';
+$string['resetroles'] = 'Restablecer tarea ad hoc de roles';
+$string['setupiomad'] = 'Comience a configurar IOMAD';
+$string['show_suspended_companies'] = '¿Mostrar empresas suspendidas?';
+$string['show_suspended_users'] = '¿Mostrar usuarios suspendidos?';
+$string['unenroluserstask'] = 'Tarea ad hoc para dar de baja masivamente a los usuarios';
+$string['userfilter'] = 'Filtrar resultados';
+$string['usersearchfields'] = 'Búsqueda de usuario';

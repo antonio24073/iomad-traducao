@@ -1,0 +1,56 @@
+<?php
+
+// Auto generated language file.
+
+$string['bycourses'] = 'Ver por curso';
+$string['byusers'] = 'Ver por usuario';
+$string['coursecompletion'] = '{$a} finalización';
+$string['courseexpiry'] = '{$a} vencimiento';
+$string['coursestatus'] = '{$a} estado';
+$string['coursesummary'] = 'Inscrito: {$a->enrolled} \\n Iniciado: {$a->timestarted} \\n Completado: {$a->timecompleted} \\n Caduca: {$a->timeexpires} \\n Calificación: {$a->finalscore}';
+$string['coursesummary_expired'] = 'Inscrito: {$a->enrolled} \\n Iniciado: {$a->timestarted} \\n Caducado: {$a->timeexpires} \\n Calificación: {$a->finalscore}';
+$string['coursesummary_extra_indate'] = 'Inscrito: {$a->enrolled} \\n Iniciado: {$a->timestarted} \\n Completado: {$a->timecompleted} \\n Caduca: {$a->timeexpires} \\n Calificación: {$a->finalscore} \\n Completado anteriormente: {$a->lastcompleted} \\n Caduca: {$a->timeexpired}';
+$string['coursesummary_extra_outdate'] = 'Inscrito: {$a->enrolled} \\n Iniciado: {$a->timestarted} \\n Completado: {$a->timecompleted} \\n Caduca: {$a->timeexpires} \\n Calificación: {$a->finalscore} \\n Completado anteriormente: {$a->lastcompleted} \\n Caduca: {$a->timeexpired}';
+$string['coursesummary_noexpire'] = 'Inscrito: {$a->enrolled} \\n Iniciado: {$a->timestarted} \\n Completado: {$a->timecompleted} \\n Calificación: {$a->finalscore} \\n Completado anteriormente: {$a->lastcompleted}';
+$string['coursesummary_noexpiry'] = 'Inscrito: {$a->enrolled} \\n Iniciado: {$a->timestarted} \\n Completado: {$a->timecompleted} \\n Calificación: {$a->finalscore}';
+$string['coursesummary_nograde'] = 'Inscrito: {$a->enrolled} \\n Iniciado: {$a->timestarted} \\n Completado: {$a->timecompleted} \\n Caduca: {$a->timeexpires} \\n Resultado: Aprobado';
+$string['coursesummary_nograde_noexpiry'] = 'Inscrito: {$a->enrolled} \\n Iniciado: {$a->timestarted} \\n Completado: {$a->timecompleted} \\n Resultado: Aprobado';
+$string['coursesummary_partial'] = 'Completado: {$a->timecompleted} \\n Caduca: {$a->timeexpires}';
+$string['coursesummary_partial_extra_indate'] = 'Completado: {$a->timecompleted} \\n Caduca: {$a->timeexpires} \\n Completado anteriormente: {$a->lastcompleted} \\n Caduca: {$a->timeexpired}';
+$string['coursesummary_partial_extra_outdate'] = 'Completado: {$a->timecompleted} \\n Caduca: {$a->timeexpires} \\n Completado anteriormente: {$a->lastcompleted} \\n Caduca: {$a->timeexpired}';
+$string['coursesummary_partial_noexpire'] = 'Completado: {$a->timecompleted} \\n Completado anteriormente: {$a->lastcompleted}';
+$string['expired'] = 'Venció';
+$string['expiring'] = 'Pendiente';
+$string['hideenrolledonly'] = 'Destacar disponible';
+$string['hideexpiry'] = 'Resaltar caducar';
+$string['indate'] = 'DE ACUERDO';
+$string['notcompleted'] = 'En curso';
+$string['notcompleted-expiring'] = 'En curso (Fecha límite)';
+$string['notcompleted-indate'] = 'En progreso (OK)';
+$string['notcompleted-outdate'] = 'En curso (Caducado)';
+$string['notenrolled'] = 'No está inscrito';
+$string['notenrolled-expiring'] = 'No inscrito (Vencimiento)';
+$string['notenrolled-indate'] = 'No matriculado (OK)';
+$string['notenrolled-outdate'] = 'No inscrito (Caducado)';
+$string['pluginname'] = 'Informe general de finalización';
+$string['privacy:metadata:local_report_user_lic_allocs'] = 'Información del usuario sobre la asignación de licencias de informes locales';
+$string['privacy:metadata:local_report_user_lic_allocs:action'] = 'Acción de asignación';
+$string['privacy:metadata:local_report_user_lic_allocs:courseid'] = 'ID del curso';
+$string['privacy:metadata:local_report_user_lic_allocs:id'] = 'ID de registro de asignación de licencia de usuario de informe local';
+$string['privacy:metadata:local_report_user_lic_allocs:issuedate'] = 'Emisión de licencia Marca de tiempo Unix';
+$string['privacy:metadata:local_report_user_lic_allocs:licenseid'] = 'ID de licencia';
+$string['privacy:metadata:local_report_user_lic_allocs:userid'] = 'ID de usuario';
+$string['report_completion_overview:view'] = 'Ver informe general de finalización del curso';
+$string['report_completion_overview_title'] = 'Informe general de finalización';
+$string['reportbytext'] = 'Mostrar informe como texto';
+$string['showenrolled'] = 'Resaltar solo con inscripciones';
+$string['showenrolledonly'] = 'Mostrar únicamente los cursos con inscripciones registradas.';
+$string['showenrolledonly_help'] = 'Si se marca esta opción, solo se mostrarán los cursos que tengan o hayan tenido inscripciones registradas.';
+$string['showexpiry'] = 'Resaltar todo';
+$string['showexpiryonly'] = 'Mostrar solo cursos que caduquen';
+$string['showexpiryonly_help'] = 'Si se marca esta opción, los cursos que no tengan una duración válida no se mostrarán en color en la vista general gráfica de forma predeterminada.';
+$string['showfulldetail'] = 'Mostrar detalles completos de finalización';
+$string['showfulldetail_help'] = 'Si se marca esta opción, se mostrará toda la información de finalización; de lo contrario, solo se mostrarán las fechas de finalización y de vencimiento.';
+$string['warningduration'] = 'Límite de advertencias caducado';
+$string['warningduration_help'] = 'Este es el valor del tiempo antes de que caduque un curso, momento en el que el informe mostrará los colores de advertencia de caducidad en lugar de los colores de OK.';
+$string['warningdurationcompany'] = 'Límite de advertencia vencida específico de la empresa';

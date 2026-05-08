@@ -1,0 +1,55 @@
+<?php
+
+// Auto generated language file.
+
+$string['bulkenroluserssuccess'] = '由于所选用户数量较多，系统已创建临时任务来处理此请求。此任务可能需要一些时间才能完成。在此期间，请求的用户注册信息可能不会显示。';
+$string['bulkuserunenrolsuccess'] = '由于选定用户数量较多，系统已创建临时任务来处理此请求。此任务可能需要一些时间才能完成。在此期间，用户取消注册请求可能不会显示。';
+$string['cachedef_allcompanycategories'] = '缓存用于保存任何公司都可以访问的类别。';
+$string['cachedef_companycategories'] = '缓存用于保存分配给公司的类别。';
+$string['cachedef_companycoursecategories'] = '缓存用于保存公司有权访问的类别。';
+$string['cannotemailnontemporarypasswords'] = '如果不强制用户在首次登录时更改密码，就通过电子邮件发送密码是不安全的。';
+$string['companycityfilter'] = '公司位置包含';
+$string['companycountryfilter'] = '公司所在国家/地区包含';
+$string['companycourses'] = '其他公司课程';
+$string['companyfilter'] = '筛选结果';
+$string['companynamefilter'] = '公司名称包含';
+$string['companysearchfields'] = '公司搜索字段';
+$string['coursesearchfields'] = '课程搜索';
+$string['crontask'] = 'IOMAD Cron';
+$string['datesearchfields'] = '日期搜索';
+$string['deletecompany'] = '删除公司临时任务';
+$string['enroluserstask'] = '批量注册用户临时任务';
+$string['emailfilter'] = '电子邮件地址包含';
+$string['enforce_username_match'] = '要求所有租户的用户名必须一致';
+$string['enforce_username_match_help'] = '选择此选项后，其他租户中的现有用户只能通过用户名进行匹配（而不是使用名字、姓氏和电子邮件地址），以避免被创建为新的/单独的用户。';
+$string['firstnamefilter'] = '名字包含';
+$string['iomad'] = '国际马德拉斯博物馆';
+$string['lastnamefilter'] = '姓氏包含';
+$string['missingaccesstocourse'] = '你不可以这样做。';
+$string['nopermissions'] = 'IOMAD管理员没有授予您执行此操作的权限。';
+$string['pluginname'] = '国际马德拉斯博物馆';
+$string['privacy:metadata'] = '本地IOMAD插件仅显示存储在其他位置的数据。';
+$string['privacy:metadata:company_users'] = '公司用户';
+$string['privacy:metadata:company_users:companyid'] = '公司用户公司 ID';
+$string['privacy:metadata:company_users:departmentid'] = '公司用户部门 ID';
+$string['privacy:metadata:company_users:managertype'] = '公司用户管理器类型';
+$string['privacy:metadata:company_users:suspended'] = '公司用户已暂停标记';
+$string['privacy:metadata:company_users:userid'] = '公司用户用户ID';
+$string['privacy:metadata:companylicense_users'] = '公司许可用户';
+$string['privacy:metadata:companylicense_users:groupid'] = '公司许可证用户组 ID';
+$string['privacy:metadata:companylicense_users:issuedate'] = '公司许可证用户签发日期';
+$string['privacy:metadata:companylicense_users:isusing'] = '公司许可证用户“正在使用”标志';
+$string['privacy:metadata:companylicense_users:licensecourseid'] = '公司许可用户许可课程 ID';
+$string['privacy:metadata:companylicense_users:licenseid'] = '公司许可证用户许可证 ID';
+$string['privacy:metadata:companylicense_users:result'] = '公司许可用户结果';
+$string['privacy:metadata:companylicense_users:score'] = '公司许可用户评分';
+$string['privacy:metadata:companylicense_users:timecompleted'] = '公司许可证用户完成时间';
+$string['privacy:metadata:companylicense_users:userid'] = '公司许可证用户用户 ID';
+$string['removelicenses'] = '已删除 - 公司课程记录和许可证';
+$string['resetroles'] = '重置角色临时任务';
+$string['setupiomad'] = '开始设置IOMAD';
+$string['show_suspended_companies'] = '显示被暂停营业的公司？';
+$string['show_suspended_users'] = '显示已暂停用户？';
+$string['unenroluserstask'] = '批量取消用户注册临时任务';
+$string['userfilter'] = '筛选结果';
+$string['usersearchfields'] = '用户搜索';

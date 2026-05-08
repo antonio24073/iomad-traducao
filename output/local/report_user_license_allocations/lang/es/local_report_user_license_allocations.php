@@ -1,0 +1,51 @@
+<?php
+
+// Auto generated language file.
+
+$string['actions'] = 'Comportamiento';
+$string['allocated'] = 'Asignado: {$a}';
+$string['blocktitle'] = 'Informe de asignación de licencias de usuario';
+$string['certificate'] = 'Certificado';
+$string['clear'] = 'Claro';
+$string['clearconfirm'] = 'El usuario será expulsado del curso y se borrarán todos sus datos. Conservará una licencia para reiniciar el curso. ¿Está seguro de que desea realizar esta acción?';
+$string['completed'] = 'Terminado';
+$string['coursedetails'] = 'Informe completo del curso';
+$string['dateallocated'] = 'Fecha asignada';
+$string['datecompleted'] = 'Fecha de finalización';
+$string['datestarted'] = 'Curso asignado/iniciado';
+$string['dateunallocated'] = 'Fecha no asignada';
+$string['deleteconfirm'] = 'El usuario será expulsado del curso, se borrarán todos sus datos y se reasignarán sus licencias. Esta acción es irreversible. ¿Está seguro?';
+$string['department'] = 'Departamento';
+$string['detail'] = 'Detalle';
+$string['downloadcert'] = 'Ver certificado en formato PDF';
+$string['inprogress'] = 'En curso';
+$string['licenseallocated'] = 'Licencia asignada';
+$string['nocerttodownload'] = 'Certificado no obtenido';
+$string['nofurtherdetail'] = 'No hay más detalles que mostrar';
+$string['notstarted'] = 'No ha comenzado';
+$string['pluginname'] = 'Informe de asignación de licencias de usuario';
+$string['privacy:metadata:local_report_user_lic_allocs'] = 'Información del usuario sobre la asignación de licencias de informes locales';
+$string['privacy:metadata:local_report_user_lic_allocs:action'] = 'Acción de asignación';
+$string['privacy:metadata:local_report_user_lic_allocs:courseid'] = 'ID del curso';
+$string['privacy:metadata:local_report_user_lic_allocs:id'] = 'ID de registro de asignación de licencia de usuario de informe local';
+$string['privacy:metadata:local_report_user_lic_allocs:issuedate'] = 'Emisión de licencia Marca de tiempo Unix';
+$string['privacy:metadata:local_report_user_lic_allocs:licenseid'] = 'ID de licencia';
+$string['privacy:metadata:local_report_user_lic_allocs:userid'] = 'ID de usuario';
+$string['report_user_license_allocations:view'] = 'Consulte el informe de asignación de licencias de usuario.';
+$string['report_user_license_allocations_title'] = 'Informe de asignación de licencias de usuario';
+$string['repuserlicallocation'] = 'Informe de asignación de licencias de usuario';
+$string['scormattempts'] = 'Número de intentos';
+$string['scormnotstarted'] = 'Usuario inscrito en el curso - Módulo no iniciado';
+$string['scormquestion'] = 'ID de la pregunta';
+$string['scormresult'] = 'Resultado';
+$string['scormresults'] = 'Resultado';
+$string['scormscore'] = 'Puntaje';
+$string['scormtimestarted'] = 'Empezó el';
+$string['scormtype'] = 'Tipo de pregunta';
+$string['totalallocate'] = 'Número de asignaciones';
+$string['totalunallocate'] = 'Número de asignaciones no realizadas';
+$string['unallocated'] = 'No asignado: {$a}';
+$string['user_detail_title'] = 'Informes de usuarios';
+$string['usercoursedetails'] = 'Detalles del usuario';
+$string['userdetails'] = 'Informe de información para';
+$string['viewfullcourse'] = 'Ver resumen completo del curso';

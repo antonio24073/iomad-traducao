@@ -1,0 +1,51 @@
+<?php
+
+// Auto generated language file.
+
+$string['actions'] = '行动';
+$string['allocated'] = '已分配：{$a}';
+$string['blocktitle'] = '用户许可证分配报告';
+$string['certificate'] = '证书';
+$string['clear'] = '清除';
+$string['clearconfirm'] = '该用户将被从课程中移除，其所有数据将被删除。但他们仍然拥有重新开始课程的许可。您确定要这样做吗？';
+$string['completed'] = '完全的';
+$string['coursedetails'] = '完整课程报告';
+$string['dateallocated'] = '分配日期';
+$string['datecompleted'] = '完成日期';
+$string['datestarted'] = '课程已分配/已开始';
+$string['dateunallocated'] = '日期未分配';
+$string['deleteconfirm'] = '该用户将被从课程中移除，其所有数据将被删除，所有许可证将被重新分配。此操作无法撤销。您确定吗？';
+$string['department'] = '部门';
+$string['detail'] = '细节';
+$string['downloadcert'] = '查看PDF格式证书';
+$string['inprogress'] = '进行中';
+$string['licenseallocated'] = '许可证已分配';
+$string['nocerttodownload'] = '未获得证书';
+$string['nofurtherdetail'] = '没有更多详情可供显示';
+$string['notstarted'] = '未开始';
+$string['pluginname'] = '用户许可证分配报告';
+$string['privacy:metadata:local_report_user_lic_allocs'] = '本地报告用户许可证分配用户信息';
+$string['privacy:metadata:local_report_user_lic_allocs:action'] = '分配行动';
+$string['privacy:metadata:local_report_user_lic_allocs:courseid'] = '课程编号';
+$string['privacy:metadata:local_report_user_lic_allocs:id'] = '本地报表用户许可证分配记录 ID';
+$string['privacy:metadata:local_report_user_lic_allocs:issuedate'] = '许可证颁发 Unix 时间戳';
+$string['privacy:metadata:local_report_user_lic_allocs:licenseid'] = '许可证 ID';
+$string['privacy:metadata:local_report_user_lic_allocs:userid'] = '用户身份';
+$string['report_user_license_allocations:view'] = '查看用户许可证分配报告';
+$string['report_user_license_allocations_title'] = '用户许可证分配报告';
+$string['repuserlicallocation'] = '用户许可证分配报告';
+$string['scormattempts'] = '尝试次数';
+$string['scormnotstarted'] = '用户已报名课程 - 模块尚未开始';
+$string['scormquestion'] = '问题编号';
+$string['scormresult'] = '结果';
+$string['scormresults'] = '结果';
+$string['scormscore'] = '分数';
+$string['scormtimestarted'] = '开始于';
+$string['scormtype'] = '问题类型';
+$string['totalallocate'] = '分配次数';
+$string['totalunallocate'] = '未分配数量';
+$string['unallocated'] = '未分配：{$a}';
+$string['user_detail_title'] = '用户报告';
+$string['usercoursedetails'] = '用户详情';
+$string['userdetails'] = '报告信息';
+$string['viewfullcourse'] = '查看课程完整概要';

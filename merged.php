@@ -1,130 +1,58 @@
 <?php
+
+// error_reporting(E_ALL);
+// ini_set('display_errors', 1);
+
+define('MOODLE_INTERNAL', true);
+
 $strings = [];
-$string = [];
-require(__DIR__.'/src/admin/tool/iomadpolicy/lang/en/tool_iomadpolicy.php');
-$strings['tool_iomadpolicy'] = $string;
-$string = [];
-require(__DIR__.'/src/admin/tool/iomadsite/lang/en/tool_iomadsite.php');
-$strings['tool_iomadsite'] = $string;
-$string = [];
-require(__DIR__.'/src/admin/tool/iomadmerge/lang/en/tool_iomadmerge.php');
-$strings['tool_iomadmerge'] = $string;
-$string = [];
-require(__DIR__.'/src/local/iomad_track/lang/en/local_iomad_track.php');
-$strings['local_iomad_track'] = $string;
-$string = [];
-require(__DIR__.'/src/local/iomadcustompage/lang/en/local_iomadcustompage.php');
-$strings['local_iomadcustompage'] = $string;
-$string = [];
-require(__DIR__.'/src/local/iomad_settings/lang/en/local_iomad_settings.php');
-$strings['local_iomad_settings'] = $string;
-$string = [];
-require(__DIR__.'/src/local/iomad_learningpath/lang/en/local_iomad_learningpath.php');
-$strings['local_iomad_learningpath'] = $string;
-$string = [];
-require(__DIR__.'/src/local/iomad_signup/lang/en/local_iomad_signup.php');
-$strings['local_iomad_signup'] = $string;
-$string = [];
-require(__DIR__.'/src/local/iomad/lang/en/local_iomad.php');
-$strings['local_iomad'] = $string;
-$string = [];
-require(__DIR__.'/src/local/iomad_oidc_sync/lang/en/local_iomad_oidc_sync.php');
-$strings['local_iomad_oidc_sync'] = $string;
-$string = [];
-require(__DIR__.'/src/auth/iomadoidc/lang/en/auth_iomadoidc.php');
-$strings['auth_iomadoidc'] = $string;
-$string = [];
-require(__DIR__.'/src/auth/iomadsaml2/lang/en/auth_iomadsaml2.php');
-$strings['auth_iomadsaml2'] = $string;
-$string = [];
-require(__DIR__.'/src/mod/iomadcertificate/lang/en/iomadcertificate.php');
-$strings['iomadcertificate'] = $string;
-$string = [];
-require(__DIR__.'/src/blocks/iomad_html/lang/en/block_iomad_html.php');
-$strings['block_iomad_html'] = $string;
-$string = [];
-require(__DIR__.'/src/blocks/iomad_company_admin/lang/en/block_iomad_company_admin.php');
-$strings['block_iomad_company_admin'] = $string;
-$string = [];
-require(__DIR__.'/src/blocks/iomad_link/lang/en/block_iomad_link.php');
-$strings['block_iomad_link'] = $string;
-$string = [];
-require(__DIR__.'/src/blocks/iomad_microlearning/lang/en/block_iomad_microlearning.php');
-$strings['block_iomad_microlearning'] = $string;
-$string = [];
-require(__DIR__.'/src/blocks/iomad_approve_access/lang/en/block_iomad_approve_access.php');
-$strings['block_iomad_approve_access'] = $string;
-$string = [];
-require(__DIR__.'/src/blocks/iomad_onlineusers/lang/en/block_iomad_onlineusers.php');
-$strings['block_iomad_onlineusers'] = $string;
-$string = [];
-require(__DIR__.'/src/blocks/iomad_learningpath/lang/en/block_iomad_learningpath.php');
-$strings['block_iomad_learningpath'] = $string;
-$string = [];
-require(__DIR__.'/src/blocks/iomad_commerce/lang/en/block_iomad_commerce.php');
-$strings['block_iomad_commerce'] = $string;
-$string = [];
-require(__DIR__.'/src/blocks/iomad_reports/lang/en/block_iomad_reports.php');
-$strings['block_iomad_reports'] = $string;
-$string = [];
-require(__DIR__.'/src/blocks/iomad_company_selector/lang/en/block_iomad_company_selector.php');
-$strings['block_iomad_company_selector'] = $string;
-$string = [];
-require(__DIR__.'/src/blocks/iomad_welcome/lang/en/block_iomad_welcome.php');
-$strings['block_iomad_welcome'] = $string;
-$string = [];
-require(__DIR__.'/src/theme/iomadboost/lang/en/theme_iomadboost.php');
-$strings['theme_iomadboost'] = $string;
-$string = [];
-require(__DIR__.'/src/theme/iomad/lang/en/theme_iomad.php');
-$strings['theme_iomad'] = $string;
-$string = [];
-require(__DIR__.'/src/theme/iomadbootstrap/lang/en/theme_iomadbootstrap.php');
-$strings['theme_iomadbootstrap'] = $string;
-$string = [];
-require(__DIR__.'/src/local/report_completion/lang/en/local_report_completion.php');
-$strings['local_report_completion'] = $string;
-$string = [];
-require(__DIR__.'/src/local/report_attendance/lang/en/local_report_attendance.php');
-$strings['local_report_attendance'] = $string;
-$string = [];
-require(__DIR__.'/src/local/report_completion_monthly/lang/en/local_report_completion_monthly.php');
-$strings['local_report_completion_monthly'] = $string;
-$string = [];
-require(__DIR__.'/src/local/report_companies/lang/en/local_report_companies.php');
-$strings['local_report_companies'] = $string;
-$string = [];
-require(__DIR__.'/src/local/report_completion_overview/lang/en/local_report_completion_overview.php');
-$strings['local_report_completion_overview'] = $string;
-$string = [];
-require(__DIR__.'/src/local/report_emails/lang/en/local_report_emails.php');
-$strings['local_report_emails'] = $string;
-$string = [];
-require(__DIR__.'/src/local/report_license_usage/lang/en/local_report_license_usage.php');
-$strings['local_report_license_usage'] = $string;
-$string = [];
-require(__DIR__.'/src/local/report_user_license_allocations/lang/en/local_report_user_license_allocations.php');
-$strings['local_report_user_license_allocations'] = $string;
-$string = [];
-require(__DIR__.'/src/local/report_user_logins/lang/en/local_report_user_logins.php');
-$strings['local_report_user_logins'] = $string;
-$string = [];
-require(__DIR__.'/src/local/report_users/lang/en/local_report_users.php');
-$strings['local_report_users'] = $string;
-$string = [];
-require(__DIR__.'/src/blocks/mycourses/lang/en/block_mycourses.php');
-$strings['block_mycourses'] = $string;
-$string = [];
+$string = [];require(__DIR__.'/src/admin/tool/iomadmerge/lang/en/tool_iomadmerge.php');$strings['tool_iomadmerge'] = $string;
+$string = [];require(__DIR__.'/src/admin/tool/iomadpolicy/lang/en/tool_iomadpolicy.php');$strings['tool_iomadpolicy'] = $string;
+$string = [];require(__DIR__.'/src/admin/tool/iomadsite/lang/en/tool_iomadsite.php');$strings['tool_iomadsite'] = $string;
+$string = [];require(__DIR__.'/src/auth/iomadoidc/lang/en/auth_iomadoidc.php');$strings['auth_iomadoidc'] = $string;
+$string = [];require(__DIR__.'/src/auth/iomadsaml2/lang/en/auth_iomadsaml2.php');$strings['auth_iomadsaml2'] = $string;
+$string = [];require(__DIR__.'/src/blocks/iomad_approve_access/lang/en/block_iomad_approve_access.php');$strings['block_iomad_approve_access'] = $string;
+$string = [];require(__DIR__.'/src/blocks/iomad_commerce/lang/en/block_iomad_commerce.php');$strings['block_iomad_commerce'] = $string;
+$string = [];require(__DIR__.'/src/blocks/iomad_company_admin/lang/en/block_iomad_company_admin.php');$strings['block_iomad_company_admin'] = $string;
+$string = [];require(__DIR__.'/src/blocks/iomad_company_selector/lang/en/block_iomad_company_selector.php');$strings['block_iomad_company_selector'] = $string;
+$string = [];require(__DIR__.'/src/blocks/iomad_html/lang/en/block_iomad_html.php');$strings['block_iomad_html'] = $string;
+$string = [];require(__DIR__.'/src/blocks/iomad_learningpath/lang/en/block_iomad_learningpath.php');$strings['block_iomad_learningpath'] = $string;
+$string = [];require(__DIR__.'/src/blocks/iomad_link/lang/en/block_iomad_link.php');$strings['block_iomad_link'] = $string;
+$string = [];require(__DIR__.'/src/blocks/iomad_microlearning/lang/en/block_iomad_microlearning.php');$strings['block_iomad_microlearning'] = $string;
+$string = [];require(__DIR__.'/src/blocks/iomad_onlineusers/lang/en/block_iomad_onlineusers.php');$strings['block_iomad_onlineusers'] = $string;
+$string = [];require(__DIR__.'/src/blocks/iomad_reports/lang/en/block_iomad_reports.php');$strings['block_iomad_reports'] = $string;
+$string = [];require(__DIR__.'/src/blocks/iomad_welcome/lang/en/block_iomad_welcome.php');$strings['block_iomad_welcome'] = $string;
+$string = [];require(__DIR__.'/src/blocks/mycourses/lang/en/block_mycourses.php');$strings['block_mycourses'] = $string;
+$string = [];require(__DIR__.'/src/filter/iomad/lang/en/filter_iomad.php');$strings['filter_iomad'] = $string;
+$string = [];require(__DIR__.'/src/local/iomadcustompage/lang/en/local_iomadcustompage.php');$strings['local_iomadcustompage'] = $string;
+$string = [];require(__DIR__.'/src/local/iomad/lang/en/local_iomad.php');$strings['local_iomad'] = $string;
+$string = [];require(__DIR__.'/src/local/iomad_learningpath/lang/en/local_iomad_learningpath.php');$strings['local_iomad_learningpath'] = $string;
+$string = [];require(__DIR__.'/src/local/iomad_oidc_sync/lang/en/local_iomad_oidc_sync.php');$strings['local_iomad_oidc_sync'] = $string;
+$string = [];require(__DIR__.'/src/local/iomad_settings/lang/en/local_iomad_settings.php');$strings['local_iomad_settings'] = $string;
+$string = [];require(__DIR__.'/src/local/iomad_signup/lang/en/local_iomad_signup.php');$strings['local_iomad_signup'] = $string;
+$string = [];require(__DIR__.'/src/local/iomad_track/lang/en/local_iomad_track.php');$strings['local_iomad_track'] = $string;
+$string = [];require(__DIR__.'/src/local/report_attendance/lang/en/local_report_attendance.php');$strings['local_report_attendance'] = $string;
+$string = [];require(__DIR__.'/src/local/report_companies/lang/en/local_report_companies.php');$strings['local_report_companies'] = $string;
+$string = [];require(__DIR__.'/src/local/report_completion/lang/en/local_report_completion.php');$strings['local_report_completion'] = $string;
+$string = [];require(__DIR__.'/src/local/report_completion_monthly/lang/en/local_report_completion_monthly.php');$strings['local_report_completion_monthly'] = $string;
+$string = [];require(__DIR__.'/src/local/report_completion_overview/lang/en/local_report_completion_overview.php');$strings['local_report_completion_overview'] = $string;
+$string = [];require(__DIR__.'/src/local/report_emails/lang/en/local_report_emails.php');$strings['local_report_emails'] = $string;
+$string = [];require(__DIR__.'/src/local/report_license_usage/lang/en/local_report_license_usage.php');$strings['local_report_license_usage'] = $string;
+$string = [];require(__DIR__.'/src/local/report_user_license_allocations/lang/en/local_report_user_license_allocations.php');$strings['local_report_user_license_allocations'] = $string;
+$string = [];require(__DIR__.'/src/local/report_user_logins/lang/en/local_report_user_logins.php');$strings['local_report_user_logins'] = $string;
+$string = [];require(__DIR__.'/src/local/report_users/lang/en/local_report_users.php');$strings['local_report_users'] = $string;
+$string = [];require(__DIR__.'/src/mod/iomadcertificate/lang/en/iomadcertificate.php');$strings['iomadcertificate'] = $string;
+$string = [];require(__DIR__.'/src/theme/iomadboost/lang/en/theme_iomadboost.php');$strings['theme_iomadboost'] = $string;
+$string = [];require(__DIR__.'/src/theme/iomadbootstrap/lang/en/theme_iomadbootstrap.php');$strings['theme_iomadbootstrap'] = $string;
+$string = [];require(__DIR__.'/src/theme/iomad/lang/en/theme_iomad.php');$strings['theme_iomad'] = $string;
 
 foreach ($strings as $file => $string) {
     foreach($string as $key => $value) {
         if(str_contains($value,'|')){
             $value = str_replace('|', ' ', $value); // Replace pipe with space to avoid issues in CSV format.
         }
-        $quotes = '';
-        if(str_contains($value,'')){
-            $value = str_replace('|', ' ', $value); // Replace pipe with space to avoid issues in CSV format.
-        }
+        // replace newlines with space to avoid issues in CSV format.
+        $value = str_replace("\n", ' __NEWLINE__ ', $value);
         echo "$file|$key|$value\n";
     }
 }

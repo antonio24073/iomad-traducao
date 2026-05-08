@@ -1,0 +1,56 @@
+<?php
+
+// Auto generated language file.
+
+$string['bycourses'] = '按课程查看';
+$string['byusers'] = '用户查看';
+$string['coursecompletion'] = '{$a} 完成';
+$string['courseexpiry'] = '{$a} 到期';
+$string['coursestatus'] = '{$a} 状态';
+$string['coursesummary'] = '已注册：{$a->enrolled} \\n 开始时间：{$a->timestarted} \\n 完成时间：{$a->timecompleted} \\n 到期时间：{$a->timeexpires} \\n 成绩：{$a->finalscore}';
+$string['coursesummary_expired'] = '已注册：{$a->enrolled} \\n 开始时间：{$a->timestarted} \\n 过期时间：{$a->timeexpires} \\n 成绩：{$a->finalscore}';
+$string['coursesummary_extra_indate'] = '已注册：{$a->enrolled} \\n 开始时间：{$a->timestarted} \\n 完成时间：{$a->timecompleted} \\n 到期时间：{$a->timeexpires} \\n 成绩：{$a->finalscore} \\n 上次完成时间：{$a->lastcompleted} \\n 到期时间：{$a->timeexpired}';
+$string['coursesummary_extra_outdate'] = '已注册：{$a->enrolled} \\n 开始时间：{$a->timestarted} \\n 完成时间：{$a->timecompleted} \\n 到期时间：{$a->timeexpires} \\n 成绩：{$a->finalscore} \\n 上次完成时间：{$a->lastcompleted} \\n 到期时间：{$a->timeexpired}';
+$string['coursesummary_noexpire'] = '已注册：{$a->enrolled} \\n 开始时间：{$a->timestarted} \\n 完成时间：{$a->timecompleted} \\n 成绩：{$a->finalscore} \\n 上次完成时间：{$a->lastcompleted}';
+$string['coursesummary_noexpiry'] = '已注册：{$a->enrolled} \\n 开始时间：{$a->timestarted} \\n 完成时间：{$a->timecompleted} \\n 成绩：{$a->finalscore}';
+$string['coursesummary_nograde'] = '已注册：{$a->enrolled} \\n 开始时间：{$a->timestarted} \\n 完成时间：{$a->timecompleted} \\n 到期时间：{$a->timeexpires} \\n 结果：通过';
+$string['coursesummary_nograde_noexpiry'] = '已注册：{$a->enrolled} \\n 开始时间：{$a->timestarted} \\n 完成时间：{$a->timecompleted} \\n 结果：通过';
+$string['coursesummary_partial'] = '已完成：{$a->timecompleted} \\n 过期：{$a->timeexpires}';
+$string['coursesummary_partial_extra_indate'] = '已完成：{$a->timecompleted} \\n 过期：{$a->timeexpires} \\n 上次已完成：{$a->lastcompleted} \\n 过期：{$a->timeexpired}';
+$string['coursesummary_partial_extra_outdate'] = '已完成：{$a->timecompleted} \\n 过期：{$a->timeexpires} \\n 上次已完成：{$a->lastcompleted} \\n 已过期：{$a->timeexpired}';
+$string['coursesummary_partial_noexpire'] = '已完成：{$a->timecompleted} \\n 上次已完成：{$a->lastcompleted}';
+$string['expired'] = '已到期';
+$string['expiring'] = '到期的';
+$string['hideenrolledonly'] = '高亮显示可用';
+$string['hideexpiry'] = '高亮过期';
+$string['indate'] = '好的';
+$string['notcompleted'] = '进行中';
+$string['notcompleted-expiring'] = '进行中（到期）';
+$string['notcompleted-indate'] = '进行中（正常）';
+$string['notcompleted-outdate'] = '进行中（已过期）';
+$string['notenrolled'] = '未注册';
+$string['notenrolled-expiring'] = '未注册（到期）';
+$string['notenrolled-indate'] = '未注册（好的）';
+$string['notenrolled-outdate'] = '未注册（已过期）';
+$string['pluginname'] = '完成情况概述报告';
+$string['privacy:metadata:local_report_user_lic_allocs'] = '本地报告用户许可证分配用户信息';
+$string['privacy:metadata:local_report_user_lic_allocs:action'] = '分配行动';
+$string['privacy:metadata:local_report_user_lic_allocs:courseid'] = '课程编号';
+$string['privacy:metadata:local_report_user_lic_allocs:id'] = '本地报表用户许可证分配记录 ID';
+$string['privacy:metadata:local_report_user_lic_allocs:issuedate'] = '许可证颁发 Unix 时间戳';
+$string['privacy:metadata:local_report_user_lic_allocs:licenseid'] = '许可证 ID';
+$string['privacy:metadata:local_report_user_lic_allocs:userid'] = '用户身份';
+$string['report_completion_overview:view'] = '查看课程完成情况概述报告';
+$string['report_completion_overview_title'] = '完成情况概述报告';
+$string['reportbytext'] = '以文本形式显示报告';
+$string['showenrolled'] = '仅突出显示已注册人员';
+$string['showenrolledonly'] = '仅显示已登记报名的课程';
+$string['showenrolledonly_help'] = '如果选中此选项，则只会显示已有或曾经有注册记录的课程。';
+$string['showexpiry'] = '全部选中';
+$string['showexpiryonly'] = '仅显示即将过期的课程';
+$string['showexpiryonly_help'] = '如果选中此选项，则默认情况下，长度无效的课程将不会在图形概览中以颜色显示。';
+$string['showfulldetail'] = '显示完整的完成详情';
+$string['showfulldetail_help'] = '如果选中此选项，则会显示所有完成信息；否则，只会显示完成日期和到期日期。';
+$string['warningduration'] = '警告限已过期';
+$string['warningduration_help'] = '这是课程到期前的时间值，到期后报告中将显示到期警告颜色而不是正常颜色。';
+$string['warningdurationcompany'] = '公司特定过期警告限制';

@@ -15,15 +15,19 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
+ * Block IOMAD link strings.
+ *
  * @package   block_iomad_link
  * @copyright 2021 Derick Turner
  * @author    Derick Turner
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['iomad_link:addinstance'] = 'Add a new IOMAD Dashboard link block';
-$string['iomad_link:myaddinstance'] = 'Add a new IOMAD Dashboard link block to the users dashboard';
-$string['iomad_link:view'] = 'View link to IOMAD Dashboard';
-$string['link'] = 'Go to IOMAD Dashboard';
-$string['pluginname'] = 'IOMAD - Link to Dashboard';
-$string['privacy:metadata'] = 'The IOMAD Dashboard link block only shows data stored in other locations.';
+defined('MOODLE_INTERNAL') || die();
+
+$string['iomad_link:addinstance'] = 'Add a new Dashboard link block';
+$string['iomad_link:myaddinstance'] = 'Add a new Dashboard link block to the users dashboard';
+$string['iomad_link:view'] = 'View link to Dashboard';
+$string['link'] = 'Go to Dashboard';
+$string['pluginname'] = 'Link to Dashboard';
+$string['privacy:metadata'] = 'The Dashboard link block only shows data stored in other locations.';

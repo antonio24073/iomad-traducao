@@ -1,0 +1,49 @@
+<?php
+
+// Auto generated language file.
+
+$string['actions'] = 'Comportamiento';
+$string['blocktitle'] = 'Informes de usuarios';
+$string['certificate'] = 'Certificado';
+$string['clear_successful'] = 'El usuario ha sido eliminado del curso correctamente.';
+$string['clearconfirm'] = 'El usuario será dado de baja del curso y se eliminarán todas sus interacciones en el mismo. Esto no elimina el registro de los informes. Esta acción NO se puede deshacer. ¿Está seguro de que desea realizar esta acción?';
+$string['clearcourse'] = 'Rumbo despejado';
+$string['clearreallocateconfirm'] = 'El usuario será dado de baja del curso y se eliminará toda su información. Esto no elimina el registro de los informes. Si se utilizan licencias, y cuando corresponda, se asignará una nueva licencia al usuario. Esta acción NO se puede deshacer. ¿Está seguro de que desea realizar esta acción?';
+$string['completed'] = 'Terminado';
+$string['coursedetails'] = 'Informe completo del curso';
+$string['datecompleted'] = 'Fecha de finalización';
+$string['datestarted'] = 'Curso asignado/iniciado';
+$string['delete_successful'] = 'El usuario ha sido eliminado del curso correctamente.';
+$string['department'] = 'Departamento';
+$string['downloadcert'] = 'Ver certificado en formato PDF';
+$string['inprogress'] = 'En curso';
+$string['newentry_successful'] = 'Se ha creado correctamente un nuevo registro del curso.';
+$string['nocerttodownload'] = 'Certificado no obtenido';
+$string['nofurtherdetail'] = 'No hay más detalles que mostrar';
+$string['notenrolled'] = 'No está inscrito';
+$string['notstarted'] = 'No ha comenzado';
+$string['pluginname'] = 'Informe de usuarios';
+$string['privacy:metadata'] = 'El "Informe de finalización del usuario de IOMAD local" solo muestra los datos almacenados en otras ubicaciones.';
+$string['purgerecord'] = 'Registro de purga';
+$string['purgerecordconfirm'] = 'El registro del informe del curso del usuario se eliminará <b>permanentemente de todos los informes</b>. Esto NO se puede deshacer.<br>¿Está seguro de que desea hacer esto?';
+$string['redocert'] = 'Regenerar certificado';
+$string['redocert_successful'] = 'El archivo de certificado se ha regenerado correctamente. Dependiendo de la configuración de caché de su navegador, es posible que al descargarlo parezca que está obteniendo el archivo original.';
+$string['redocertificateconfirm'] = '¿Está seguro de que desea regenerar el archivo de certificado guardado para este usuario?<br>Esta acción NO se puede deshacer.';
+$string['report_users:addentry'] = 'Agregar un nuevo registro de curso almacenado para un usuario.';
+$string['report_users:clearentries'] = 'Borrar la información del usuario de un curso.';
+$string['report_users:deleteentries'] = 'Elimine la información del usuario del curso y libere cualquier licencia.';
+$string['report_users:deleteentriesfull'] = 'Eliminar los registros de usuario almacenados para un curso.';
+$string['report_users:redocertificates'] = 'Regenerar los certificados de usuario almacenados para un curso.';
+$string['report_users:updateentries'] = 'Actualizar los registros de usuario almacenados';
+$string['report_users:view'] = 'Ver el informe de usuarios';
+$string['report_users_title'] = 'Informe del usuario';
+$string['repusercompletion'] = 'Informe de finalización por usuario';
+$string['resetcourse'] = 'Eliminar curso';
+$string['resetcourseconfirm'] = 'El usuario será expulsado del curso y se eliminarán todos sus datos de informe. Esta acción NO se puede deshacer.<br>¿Está seguro de que desea realizar esta acción?';
+$string['revoke_successful'] = 'Se ha revocado correctamente la licencia de este usuario y se han eliminado sus datos de cursos e informes.';
+$string['revokeconfirm'] = 'La licencia se eliminará del usuario y se devolverá al grupo de licencias. Los datos de informes también se eliminarán. Esta acción NO se puede deshacer.<br>¿Está seguro de que desea realizar esta acción?';
+$string['revokelicense'] = 'Revocar la licencia';
+$string['user_detail_title'] = 'Informes de usuarios';
+$string['usercoursedetails'] = 'Detalles del usuario';
+$string['userdetails'] = 'Informe de información para {$a}';
+$string['viewfullcourse'] = 'Ver resumen completo del curso';
